@@ -10,7 +10,10 @@ history of individual features does NOT belong here (see "Feature history" at th
 <!-- 2–4 lines, filled in once the direction is clear: genre, core loop, target platform, tone.
      Update it when the concept changes — not with every feature. -->
 
-_Not described yet._
+**Asyq Atu** (Асық ату): the traditional Kazakh knucklebone-shooting game as a turn-based physics
+flicker for web (phone first). Flick your saqa (shooter bone) to knock asyqs out of a chalk ring,
+beat a ladder of five bot opponents, and climb the weekly leaderboard. Solana: wallet sign-in, the
+`$ASYQ` SPL token bridged to the premium currency that buys heavier saqas, and leaderboard prizes.
 
 ## Installed modules
 
