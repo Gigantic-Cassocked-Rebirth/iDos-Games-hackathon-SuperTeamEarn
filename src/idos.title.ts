@@ -15,7 +15,7 @@
 // one project has one identity, and DEV/PROD is an environment on top of that identity.
 
 /** Canonical (production) Title id. Empty only in the raw template, before the platform seeds it. */
-export const IDOS_TITLE_ID = "OOECV9IJ";
+export const IDOS_TITLE_ID = "11R5TF6P";
 
 /** Build key for this title, if the title enforces one. */
 export const IDOS_BUILD_KEY = "";
