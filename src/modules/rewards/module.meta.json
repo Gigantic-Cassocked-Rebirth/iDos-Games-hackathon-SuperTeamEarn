@@ -1,0 +1,26 @@
+{
+  "id": "rewards",
+  "type": "feature",
+  "summary": "Daily rewards for any game: a login calendar that greets the player once per session.",
+  "description": "A ready daily rewards screen for ANY game, built on the @idosgames/react/ui kit and client.reward. A daily login calendar (collected / today / locked cards, the last day a big milestone) that pops up by itself once per session while a reward is waiting (like DailyBonusAutoOpener in the Unity project). Registers the 'rewards' feature; its badge shows the daily bonus waiting. Quests are the quests system. Ships title-seed.json: a 7-day calendar.",
+  "provides": [
+    "daily login rewards calendar",
+    "daily bonus popup on entry",
+    "badge for the waiting daily bonus",
+    "demo daily calendar"
+  ],
+  "tags": [
+    "daily-rewards",
+    "calendar",
+    "login",
+    "retention",
+    "ui",
+    "screen",
+    "events"
+  ],
+  "author": {
+    "name": "iDos Games",
+    "url": "https://idosgames.com"
+  },
+  "version": "0.1.1"
+}

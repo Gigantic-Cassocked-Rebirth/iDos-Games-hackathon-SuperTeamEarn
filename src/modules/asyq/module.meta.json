@@ -1,0 +1,10 @@
+{
+  "id": "asyq",
+  "type": "feature",
+  "summary": "Asyq Atu: flick your saqa to knock asyqs (knucklebones) out of a chalk ring against a ladder of bot opponents; each match is scored to the leaderboard.",
+  "description": "A turn-based physics flicking game based on the traditional Kazakh game asyq atu. Canvas table with deterministic physics; the bot plans shots by simulating candidates. Saqas (shooter bones) are title items that change weight and look. A match reports games_played, matches_won and asyqs_won to quests that count them and submits its score to the asyq_weekly leaderboard (or the first plain score board).",
+  "provides": ["the game mode", "leaderboard score per match", "quest metrics games_played / matches_won / asyqs_won", "saqa items unlock heavier shooters"],
+  "tags": ["asyq", "knucklebones", "physics", "kazakh", "casual", "leaderboard"],
+  "author": { "name": "Asyq Atu team" },
+  "version": "0.1.0"
+}
