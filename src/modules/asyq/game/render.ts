@@ -126,7 +126,7 @@ export function renderTable(view: View, cssW: number, cssH: number): HTMLCanvasE
   return c;
 }
 
-function tuft(g: CanvasRenderingContext2D, x: number, y: number, rand: () => number): void {
+export function tuft(g: CanvasRenderingContext2D, x: number, y: number, rand: () => number): void {
   g.strokeStyle = `rgba(${150 + rand() * 40},${150 + rand() * 30},${80 + rand() * 30},0.8)`;
   g.lineWidth = 1.6;
   for (let i = 0; i < 6; i++) {
@@ -139,7 +139,7 @@ function tuft(g: CanvasRenderingContext2D, x: number, y: number, rand: () => num
   }
 }
 
-function ornamentBand(
+export function ornamentBand(
   g: CanvasRenderingContext2D,
   x: number,
   y: number,
@@ -437,7 +437,7 @@ export function drawReady(g: CanvasRenderingContext2D, saqa: Body, time: number,
   }
 }
 
-function seeded(seed: number): () => number {
+export function seeded(seed: number): () => number {
   let s = seed >>> 0;
   return () => {
     s = (s * 1664525 + 1013904223) >>> 0;
